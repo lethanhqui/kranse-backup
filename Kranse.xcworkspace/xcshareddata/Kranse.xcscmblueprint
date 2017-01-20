@@ -1,0 +1,34 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "F35ABADE2B0DC9A016322C7886CE5849EB54DD4B" : {
+
+    },
+    "9a562506-5560-794f-b634-f3d6b434e437" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F35ABADE2B0DC9A016322C7886CE5849EB54DD4B" : 9223372036854775807,
+    "9a562506-5560-794f-b634-f3d6b434e437" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FE2B4C75-25AE-4776-B076-E731348696EC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F35ABADE2B0DC9A016322C7886CE5849EB54DD4B" : "Kranse\/",
+    "9a562506-5560-794f-b634-f3d6b434e437" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Kranse",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kranse.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/54.169.206.140:8443\/svn\/kranse",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9a562506-5560-794f-b634-f3d6b434e437"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/54.169.206.140:8443\/svn\/kranse",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F35ABADE2B0DC9A016322C7886CE5849EB54DD4B"
+    }
+  ]
+}

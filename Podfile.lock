@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (3.1.5)
+  - LLSimpleCamera (4.2.0)
+  - MBCircularProgressBar (0.3.4)
+  - SwiftyJSON (2.3.2)
+  - TPKeyboardAvoiding (1.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.1.4)
+  - LLSimpleCamera (~> 4.1)
+  - MBCircularProgressBar
+  - SwiftyJSON (~> 2.3.2)
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  LLSimpleCamera: ed7813ce4827ff3e34c6af159c99b5b56e54d1c6
+  MBCircularProgressBar: ff3b8e2f441214d9ee122a24ba0d4d00cc7de881
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
+
+PODFILE CHECKSUM: 597d931384365b311a751899cd2b0ba051de68d4
+
+COCOAPODS: 1.1.0

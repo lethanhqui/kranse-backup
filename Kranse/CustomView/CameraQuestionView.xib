@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CameraQuestionView" customModule="Kranse" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you like Kranse Insitute's SAT prep course?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKX-fy-2jh">
+                    <rect key="frame" x="15" y="70" width="291" height="39"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9A-6l-emV">
+                    <rect key="frame" x="128" y="36" width="64" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="Emf-km-jdP"/>
+                        <constraint firstAttribute="width" constant="64" id="Iql-tE-56g"/>
+                    </constraints>
+                    <state key="normal" image="play-arrow"/>
+                    <connections>
+                        <action selector="playVideo:" destination="iN0-l3-epB" eventType="touchUpInside" id="5yQ-OM-vOc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="v9A-6l-emV" secondAttribute="bottom" constant="60" id="3tf-nI-Jy4"/>
+                <constraint firstItem="ZKX-fy-2jh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Qih-v2-fNP"/>
+                <constraint firstItem="ZKX-fy-2jh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="70" id="U2y-eP-qdf"/>
+                <constraint firstAttribute="trailing" secondItem="ZKX-fy-2jh" secondAttribute="trailing" constant="14" id="hle-Mg-8bw"/>
+                <constraint firstItem="ZKX-fy-2jh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="lRJ-k6-jE3"/>
+                <constraint firstItem="v9A-6l-emV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="nlu-Cj-cnf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnPlay" destination="v9A-6l-emV" id="AE0-bk-rEZ"/>
+                <outlet property="lblQuestion" destination="ZKX-fy-2jh" id="Fed-44-eQh"/>
+            </connections>
+            <point key="canvasLocation" x="263" y="227"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="play-arrow" width="64" height="64"/>
+    </resources>
+</document>
